@@ -23,4 +23,3 @@ for i in range(len(input_data)-1):
         result.append(input_data[i+1])
 
 print(result)
-
