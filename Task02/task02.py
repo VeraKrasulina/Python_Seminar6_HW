@@ -39,7 +39,7 @@
 tutors = ['Иван', 'Анастасия', 'Петр', 'Сергей', 'Дмитрий', 'Борис', 'Елена']
 groups = ['9А', '7В', '9Б', '9В']
 
-result = [(tutors[i], groups[i]) if i < len(groups) else (tutors[i], None) for i in range(len(tutors))]
+result = [(tutors[i], groups[i]) if i < len(groups) else (tutors[i], 'None') for i in range(len(tutors))]
 
 print(result)
 
